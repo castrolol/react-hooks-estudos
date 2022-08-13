@@ -1,0 +1,98 @@
+.github {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 16px;
+}
+
+.header input {
+  font-size: 24px;
+  border-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0;
+  padding: 4px;
+}
+.header button {
+  font-size: 24px;
+  padding: 4px;
+  border-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.header button:active {
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+
+.body {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.body img {
+  border-radius: 4px;
+  width: 128px;
+  flex-basis: 150px;
+  margin-right: 16px;
+}
+
+.body h1 {
+  flex: 1;
+  font-family: sans-serif;
+  border-radius: 4px;
+  width: 128px;
+  margin-right: 16px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 120px;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  padding: 16px;
+  align-items: center;
+}
+
+.login input {
+  padding: 4px;
+  width: 80%;
+}
+
+.login button {
+  width: 40%;
+}
+.login span {
+  color: red;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  justify-content: space-around;
+  padding: 16px;
+  align-items: center;
+}
+.profile img {
+  display: flex;
+  width: 80px;
+  flex-basis: 80px;
+}
+
+.profile h1,
+.profile h2 {
+  display: flex;
+  flex-basis: 10px;
+  margin: 0;
+  padding: 0;
+}
